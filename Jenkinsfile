@@ -19,5 +19,21 @@ pipeline {
                 echo "Hi,I am Test"
             }
         }
+        stage('Deliver for development') {
+            when {
+                branch 'development' 
+            }
+            steps {
+                echo "Hi,Deliver for development"
+            }
+        }
+        stage('Deploy for production') {
+            when {
+                branch 'production'  
+            }
+            steps {
+                echo "Hi,Deliver for production"
+            }
+        }
     }
 }
