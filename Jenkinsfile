@@ -9,7 +9,7 @@ pipeline {
         CI = 'true'
     }
     stages {
-          stage('Clean') {
+        stage('Clean') {
             steps {
                 cleanWs(
                     cleanWhenAborted: true, 
