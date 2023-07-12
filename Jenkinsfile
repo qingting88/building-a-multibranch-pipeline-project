@@ -9,6 +9,20 @@ pipeline {
         CI = 'true'
     }
     stages {
+          stage('Clean') {
+            steps {
+                cleanWs(
+                    cleanWhenAborted: true, 
+                    cleanWhenFailure: true, 
+                    cleanWhenNotBuilt: true, 
+                    cleanWhenSuccess: true, 
+                    cleanWhenUnstable: true, 
+                    cleanupMatrixParent: true, 
+                    disableDeferredWipeout: true,
+                    deleteDirs: true
+                )
+            }
+        }
         stage('Build') {
             steps {
                 sh 'npm install'
