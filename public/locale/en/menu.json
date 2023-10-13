@@ -1,0 +1,26 @@
+{
+  "service": "Services",
+  "banking": "BANKING",
+  "personalBanking": "Personal Banking",
+  "corperateBanking": "Corperate Banking",
+  "debitCards": "Debit Cards",
+  "borrowing": "Borrowing",
+  "custody": "Custody",
+  "investing": "INVESTING",
+  "crypto": "Crypto",
+  "wealthManagement": "Wealth Management",
+  "whyus": "Why us",
+  "contact": "Contact us",
+
+  "resources": "RESOURCES",
+  "career": "Careers",
+  "company": "COMPANY",
+  "aboutus": "About us",
+  "terms": "Terms and Conditions",
+  "policy": "Privacy Policy",
+
+  "home": "HOME",
+  "download": "DOWNLOAD",
+  "FAQ": "FAQ",
+  "dashboard": "DASHBOARD"
+}
