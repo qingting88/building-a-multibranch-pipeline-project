@@ -1,0 +1,3 @@
+[submodule "weblate-i18n"]
+	path = weblate-i18n
+	url = https://github.com/qingting88/weblate-i18n
